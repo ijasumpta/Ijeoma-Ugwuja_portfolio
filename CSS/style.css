@@ -24,9 +24,7 @@ section {
     justify-self: center;
     width: 80%;
     margin: 20px;
-    /* THIS centers everything */
     padding: 60px 20px;
-
     background-color: white;
     border-radius: 5%;
 
@@ -121,4 +119,19 @@ h2 {
 .lod:hover {
      background: brown;
     
+}
+
+
+
+.about-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.about-image img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
 }
