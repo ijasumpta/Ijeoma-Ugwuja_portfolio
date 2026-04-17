@@ -41,7 +41,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px;
-     background-color: brown;
+    background-color: brown;
     color: white;
     width: 100%;
     position: fixed;
@@ -68,7 +68,8 @@ h2 {
 }
 
 .mobile a:hover {
-    background: gold;
+    background-color: aliceblue;
+    /* background: gold; */
     color: #0f172a;
 }
 
@@ -134,4 +135,28 @@ h2 {
     height: 300px;
     width: 300px;
     border-radius: 50%;
+}
+
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.skill-card {
+    /* background: #f6f6f6;  */
+     /* background: black; */
+     background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.skill-card:hover {
+     
+    background: black; 
+    color: #fff;
+    transform: translateY(-5px);
 }
