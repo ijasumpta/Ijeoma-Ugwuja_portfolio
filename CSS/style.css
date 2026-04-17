@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: darkred;
+    color: #333;
+    /* background-color: rgb(238, 207, 154); */
+}
+
+
+img {
+    width: 100%;
+    display: block;
+}
+
+section {
+    justify-self: center;
+    width: 80%;
+    margin: 20px;
+    /* THIS centers everything */
+    padding: 60px 20px;
+
+    background-color: white;
+    border-radius: 5%;
+
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+}
+
+
+.my-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+     background-color: brown;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+}
+
+/* HAMBURGER */
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+    /* hidden on desktop */
+}
+
+.mobile a {
+
+    text-decoration: none;
+    color: #f1f5f9;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.mobile a:hover {
+    background: gold;
+    color: #0f172a;
+}
+
+/* Hero Section */
+.hero {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    min-height: 90vh;
+    gap: 20px;
+}
+
+.hero-image {
+
+    display: flex;
+    justify-content: right;
+}
+
+.hero-image img {
+    height: 400px;
+    width: 500px;
+}
+
+
+
+.hero-contet h2 {
+    font-size: 2rem;
+
+}
+
+.hero-contet p {
+    margin: 15px 0;
+    font-size: 1.5rem;
+}
+
+.lod {
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: white;
+    /* color: #fff; */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.lod:hover {
+     background: brown;
+    
+}
