@@ -11,7 +11,7 @@ body {
     line-height: 1.6;
     background-color: darkred;
     color: #333;
-    /* background-color: rgb(238, 207, 154); */
+
 }
 
 
@@ -123,7 +123,6 @@ h3{
     
    
     color: white;
-    /* color: #fff; */
     text-decoration: none;
     border-radius: 5px;
     transition: 0.3s;
@@ -134,8 +133,7 @@ h3{
 }
 
 
-
-
+/* About Section */
 
 .about-me {
     display: grid;
@@ -150,6 +148,8 @@ h3{
     border-radius: 50%;
 }
 
+
+/* Skill Section */
 
 .s-grid{
     display: grid;
@@ -173,8 +173,7 @@ h3{
 }
 
 
-
-
+/* Project Section */
 
 .projects-grid {
     display: grid;
@@ -208,7 +207,6 @@ h3{
 .project-card h3 {
     margin: 10px 0;
 }
-
 
 
 
@@ -274,7 +272,7 @@ h3{
 }
 
 
-
+/* Contact Section */
 
 .contact-container {
     display: grid;
@@ -298,7 +296,6 @@ h3{
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    /* border-color: #00bcd4; */
     border-color:  rgb(71, 61, 61); 
 }
 
@@ -583,7 +580,7 @@ footer {
     }
 
     .mobile a:hover {
-        background: #38bdf8;
+        background-color: aliceblue;
         color: #0f172a;
     }
 
